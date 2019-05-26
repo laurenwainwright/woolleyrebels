@@ -1,3 +1,91 @@
-ul {
-  list-style-type: none;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+div.navbar {
+  overflow: hidden;
+  background-color: white;
+}
+
+div.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+div.navbar a.right {
+  float: right;
+}
+
+div.navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+img {
+  width: 100%;
+}
+
+
+
+
+
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image2 {
+  position: absolute;
+  top: 30px;
+  left: 70px;
+}
+
+
+div.main_image {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+body {
+  background-image: url("https://www.cbronline.com/wp-content/uploads/2016/07/what-is-yarn.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.logo {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+div.text {
+  color: white;
+  font-size: 90px;
+  padding: 8px 12px;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  text-shadow: 10px 10px 15px black;
+  text-decoration-color: black;
+  transform: translate(-50%, -50%);
 }
