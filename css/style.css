@@ -1,3 +1,22 @@
+div.nav {
+  height: 10%
+}
+
 ul {
   list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
 }
+
+li {
+float: left;
+flex: auto;
+}
+
+img {
+  border-radius: 50%;
+  max-width:20%;
+  }
