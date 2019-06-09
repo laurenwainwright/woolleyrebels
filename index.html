@@ -9,25 +9,33 @@
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
-<!-- this is the search bar (and maybe the basket too!) -->
-<div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#contact">Contact</a>
-  <input type="text" placeholder="Search..">
+    <!--this is the navigation bar-->
+<div class="top-nav">
+    <ul>
+        <li><span class="basketicon"><img src="images/basket.jpg" alt="basketicon"></li>
+        <li><a href="#home" class="homeicon"><img src="images/homeicon.png" alt="homeicon"></a></li>
+      </ul>
 </div>
 
-    <!--this is the navigation bar-->
-    <div class="nav">
-      <ul>
-         <li><img class="story" src="https://i.pinimg.com/236x/11/52/47/1152475c2878df2002ae6389e87152b1--quill-knitting-projects.jpg"></li>
-          <li><img class="story" src="images/yarn1.jpg" <a href="about_us.html"></a></li>
-          <li><img class="story" src="images/yarn2.jpg"></li>
-          <li><img class="story" src="images/yarn3.jpg"></li>
-          <li><img class="story" src="images/knitting1.jpg"></li>
-      </ul>
-    </div>
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="nav">
+    <ul>
+       <li><span class="nav-li-text">Knitting</span></li>
+       <li><span class="nav-li-text">Yarn</span></li>
+       <li><span class="nav-li-text">Tools</span></li>
+       <li><a href="#about"><span class="nav-li-text">About Us</span></a></li>
+       <li><a href="#contact"><span class="nav-li-text">Contact</span></a></li>
+    </ul>
+</div>
+
+<!-- this is the search bar (and maybe the basket too!) -->
+<div class="top-container">
+  <div class="search-bar">
+     <input type="text" placeholder="search...">
+     <input class="search-submit" type="submit" value="">
+</div>
+</div>
+
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <a href="./about_us.html"><img src="images/index1.jpg" class="d-block w-100" alt="Balls of yarn">
