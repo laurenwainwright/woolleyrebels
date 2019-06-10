@@ -9,8 +9,7 @@ body {
 
 /* Style the basket & home icon*/
 div.top-nav {
-  height: 50px;
-  width: 98%;
+  width: 100%;
   margin: 5px 0px;
   position: absolute;
 }
@@ -42,7 +41,6 @@ div.top-nav {
 
 /* Style the nav bar icon inside the navigation bar */
 div.nav {
-  height: 20%;
   width: 100%;
   margin: 0 auto;
   position: relative;
