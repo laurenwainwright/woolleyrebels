@@ -9,7 +9,7 @@ body {
 
 /* Style the basket & home icon*/
 div.top-nav {
-  width: 100%;
+  width: 98%;
   margin: 5px 0px;
   position: absolute;
 }
@@ -151,36 +151,6 @@ input.search-submit {
   .topnav input[type=text] {
     border: 1px solid #ccc;
   }
-}
-
-/* Lauren: Not using these elements anymore but here for reference:/*
-/* Add a black background color to the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: white;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: right;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-/* Lauren: Not using these elements anymore but here for reference:/*
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-/* Lauren: Not using these elements anymore but here for reference:/*
-/* Style the "active" element to highlight the current page */
-.topnav a.active {
-  background-color: #2196F3;
-  color: white;
 }
 
 #featured img{
