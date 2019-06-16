@@ -122,6 +122,16 @@ input.search-submit {
   margin: 15px 0;
 }
 
+.carousel-item {
+  object-fit: cover;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
 div.Blurb {
     margin: 30px 50px;
   }
