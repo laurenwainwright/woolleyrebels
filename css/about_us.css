@@ -243,3 +243,7 @@ div.text {
   text-decoration-color: black;
   transform: translate(-50%, -50%);
 }
+
+div.Blurb {
+    margin: 30px 50px;
+  }
