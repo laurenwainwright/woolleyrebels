@@ -31,13 +31,13 @@ position: relative;
 display: flex;
 justify-content: center;
 align-items: center;
-background-image: url('../images/Home_icon.png');
+background-image: url('../images/logo.png');
 border-radius: 50%;
 background-size: 100%;
 margin: 20px 20px;
 background-repeat: no-repeat;
 font-family: avenir;
-color: mintcream;
+color: white;
 border: 2px solid white;
 font-size: 1.2em;
 }
@@ -142,6 +142,11 @@ div.main-background-image {
   height: 50%;
   position: absolute;
   bottom: 18%;
+}
+
+h2 {
+  color: seagreen;
+  text-align: center;
 }
 
 #featured img{
