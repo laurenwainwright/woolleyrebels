@@ -20,6 +20,11 @@ body {
 .nav a {
   text-decoration: none;
   color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav li {
@@ -27,9 +32,6 @@ list-style-type: none;
 width: 100px;
 height: 100px;
 position: relative;
-display: flex;
-justify-content: center;
-align-items: center;
 background-image: url('../images/logo.png');
 border-radius: 50%;
 background-size: 100%;
